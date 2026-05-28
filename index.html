@@ -170,8 +170,9 @@
             GUI-C<sup>2</sup> simplifies the decision-making process into predicting the size of the target bounding box, which serves as both a refinement trigger and a dense supervision signal. Key components include:
           </p>
           <ul>
-            <li><b>Area-gated refinement:</b> The model predicts a bounding box on the full screenshot; if the predicted area is larger than threshold &tau;<sub>1</sub>, it crops the region and predicts again (Stage 2); if still larger than &tau;<sub>2</sub>, it crops once more (Stage 3).</li>
-            <li><b>No explicit thinking:</b> Unlike GUI-Eyes, GUI-C<sup>2</sup> removes the thinking stage entirely, reducing inference time significantly.</li>
+            <li><b>Difficulty-Aware training weight adjustment:</b> We incorporate sample-wise difficulty scores as interval-bounded loss weighting factors into the GRPO objective, which upweights gradients from challenging instances while limiting the maximum weight disparity to safeguard against overfitting to noisy difficulty estimates.</li>
+            <li><b>Area-gated refinement:</b> The model predicts a bounding box on the full screenshot; if the predicted area is smaller than threshold &tau;<sub>1</sub>, it crops the region and predicts again (Stage 2); if still smaller than &tau;<sub>2</sub>, it crops once more (Stage 3).</li>
+            <li><b>No explicit thinking:</b> Unlike other agentic frameworks, GUI-C<sup>2</sup> removes the thinking stage entirely, reducing inference time significantly.</li>
             <li><b>Improvement-aware stage rewards:</b> Each refinement stage receives an auxiliary reward that encourages effective crops and penalizes harmful ones.</li>
           </ul>
         </div>

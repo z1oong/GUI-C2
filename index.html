@@ -151,7 +151,7 @@
           <ul>
             <li><b>Instruction & Length Filtering:</b> Retain action-oriented instructions; remove short item-name prompts.</li>
             <li><b>Cross-domain Filtering:</b> Remove web-like samples found in non-web domains via OCR detection.</li>
-            <li><b>Rollout Informativeness Filtering:</b> Remove samples where all 8 rollouts succeed or all fail; keep mixed-difficulty samples.</li>
+            <li><b>Rollout Informativeness Filtering:</b> Remove samples where all 8 rollouts succeed or all fail; keep mixed-outcome samples.</li>
             <li><b>Difficulty Scoring:</b> A weighted sum of 8-click success rate, prediction dispersion, localization error, target size, and parsing failures, normalized per-platform.</li>
           </ul>
         </div>

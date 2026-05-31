@@ -9,3 +9,10 @@
       <img src='https://img.shields.io/badge/Project-page-purple?style=flat&logo=web&logoColor=gary' alt='Project page'>
          </a>
 
+## 📰 News
+
+- [2026.5] 🤩 Our train dataset released on HuggingFace.
+- [2026.5] 🤩 Code for difficulty scoring released.
+
+## Difficulty Scoring
+

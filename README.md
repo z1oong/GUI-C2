@@ -9,7 +9,7 @@
       <img src='https://img.shields.io/badge/Project-page-purple?style=flat&logo=web&logoColor=gary' alt='Project page'>
          </a>
 
-More details can be found in Project page.
+More details can be found in **Project page**.
 
 ## 📰 News
 
@@ -41,3 +41,8 @@ python build_train_set_diff.py --input filter_rawoutput.json --output train_set_
 
 ```
 
+## Acknowledgements
+
+We sincerely thank the authors of [GUI-G1](https://github.com/Yuqi-Zhou/GUI-G1), [OS-Atlas](https://github.com/OS-Copilot/OS-Atlas), [SeeClick](https://github.com/njucckevin/SeeClick) and [UI-Bert](https://github.com/google-research-datasets/uibert) for their open-source contributions.
+
+## Citation

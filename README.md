@@ -11,7 +11,7 @@
 
 ## 📰 News
 
-- [2026.5] 🤩 Our train dataset released on HuggingFace.
+- [2026.5] 🤩 Our training dataset GUI-C2-4K released on HuggingFace.
 - [2026.5] 🤩 Code for difficulty scoring released.
 
 ## Difficulty Scoring

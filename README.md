@@ -46,3 +46,15 @@ python build_train_set_diff.py --input filter_rawoutput.json --output train_set_
 We sincerely thank the authors of [GUI-G1](https://github.com/Yuqi-Zhou/GUI-G1), [OS-Atlas](https://github.com/OS-Copilot/OS-Atlas), [SeeClick](https://github.com/njucckevin/SeeClick) and [UI-Bert](https://github.com/google-research-datasets/uibert) for their open-source contributions.
 
 ## Citation
+
+```bib
+@misc{li2026guic2coarsetofineguigrounding,
+      title={GUI-C$^2$: Coarse-to-Fine GUI Grounding via Difficulty-Aware Reinforcement Learning}, 
+      author={Junlong Li and Chao Hao and Lap-Pui Chau and Yi Wang},
+      year={2026},
+      eprint={2605.30884},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.30884}, 
+}
+```

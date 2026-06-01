@@ -2,7 +2,7 @@
   GUI-C<sup>2</sup>: Coarse-to-Fine GUI Grounding via Difficulty-Aware Reinforcement Learning
 </h1>
 <p align="center">
-    <a href='https://arxiv.org/pdf/'>
+    <a href='https://arxiv.org/abs/2605.30884'>
       <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
          </a>
     <a href='https://z1oong.github.io/GUI-C2/'>
